@@ -2,3 +2,4 @@ Flask
 pyotp
 qrcode
 pillow
+gunicorn
