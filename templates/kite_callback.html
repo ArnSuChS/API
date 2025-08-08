@@ -1,0 +1,11 @@
+<h2>Kite Login Successful</h2>
+
+{% if error %}
+  <p style="color:red;">Error: {{ error }}</p>
+{% else %}
+  <p>Welcome, <strong>{{ user }}</strong>!</p>
+  <p>Your access token is:</p>
+  <code>{{ token }}</code>
+  <p>You can now use Kite API features in your app.</p>
+  <a href="{{ url_for('index') }}">Go to Home</a>
+{% endif %}

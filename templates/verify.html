@@ -1,0 +1,12 @@
+<h2>2-Step Verification</h2>
+<p>Scan this QR code with Google Authenticator:</p>
+<img src="data:image/png;base64,{{ qr_code }}" alt="QR Code"><br>
+
+<p>Or manually enter secret: <b>{{ secret }}</b></p>
+
+<p><strong>Generated Code (Python):</strong> <span style="font-size: 24px;">{{ code }}</span></p>
+
+<form method="post">
+  Code from app (or above): <input name="code" required><br>
+  <input type="submit" value="Verify"> 
+</form>
