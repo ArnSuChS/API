@@ -1,6 +1,10 @@
-Flask
-pyotp
-qrcode
-pillow
-gunicorn
-kiteconnect
+Flask==3.0.3
+gunicorn==23.0.0
+itsdangerous==2.2.0
+Jinja2==3.1.4
+Werkzeug==3.0.4
+Flask-Mail==0.9.1
+email-validator==2.1.1
+Pillow==10.4.0
+Flask-WTF==1.2.1
+Flask-Login==0.6.3
